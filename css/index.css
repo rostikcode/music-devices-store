@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans&display=swap');
+
+:root {
+    --main-font: 'PT Sans', sans-serif;
+    --title-font: 'Heebo', sans-serif;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+}
+*/
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: rgb(233, 233, 233); /*колір не точний*/
+}
+
+p {
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-family: var(--title-font);
+}
+
+h2 {
+    font-family: var(--title-font);
+}
+
+h3 {
+    font-family: var(--title-font);
+}
+/*
+
+header {
+    background-image: url(../img/header-back.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.top-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px 15px 40px;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: .1em;
+}
+
+.top-contacts div a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-contacts div a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    padding: 30px 40px 30px 40px;
+    justify-content: space-between;
+}
+
+header .logo img {
+    max-width: 114px;
+}
+
+.service {
+    background-color: white;
+    display: flex;
+}
+
+.service img {
+    max-width: 90px;
+}
+
+*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-photo img {
+    height: 333px; /*хуєта*/
+}
+
+.about-all-text {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px 90px 30px;
+}
+
+.about-description {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.about-text img {
+    height: 32px;
+}
+
+.about-description-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255); /*колір не точний*/
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.about-description-icon img {
+    width: 26px;
+}
+
+.about-description-text {
+    padding: 0px 0px 0px 20px;
+}

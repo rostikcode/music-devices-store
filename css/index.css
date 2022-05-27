@@ -5,17 +5,20 @@
     --title-font: 'Heebo', sans-serif;
 }
 
-/** {
+/*
+* {
     margin: 0;
     padding: 0;
 }
 */
+
 body {
     max-width: 980px;
     margin: auto;
     background-color: rgb(233, 233, 233); /*колір не точний*/
 }
 
+/*
 p {
     font-family: var(--main-font);
 }
@@ -31,8 +34,9 @@ h2 {
 h3 {
     font-family: var(--title-font);
 }
-/*
+*/
 
+/*
 header {
     background-image: url(../img/header-back.webp);
     background-size: cover;
@@ -78,16 +82,16 @@ header .logo img {
 .service img {
     max-width: 90px;
 }
-
 */
 
+/*
 #about {
     display: flex;
     flex-direction: column;
 }
 
 .about-photo img {
-    height: 333px; /*хуєта*/
+    height: 333px; /*хуєта
 }
 
 .about-all-text {
@@ -111,7 +115,7 @@ header .logo img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255); /*колір не точний*/
+    background-color: rgb(255, 255, 255); /*колір не точний
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -124,3 +128,4 @@ header .logo img {
 .about-description-text {
     padding: 0px 0px 0px 20px;
 }
+*/

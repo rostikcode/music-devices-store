@@ -2,570 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Devices Store</title>
-    <link rel="icon" href="img/logo.svg">
-    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <div class="header-promo">
-        <div class="top-contacts">
-            <div>Customer Care: <a href="tel:+12345678900">+1 (234) 567 89 00</a></div>
-            <div>Email: <a href="mailto:basside@email.com">basside@email.com</a></div>
-        </div>
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.svg" alt="Logo">
-                </a>
-            </div>
-            <div class="top-navigation">
-                <a href="#headphones">Headphones</a>
-                <a href="#speakers">Speakers</a>
-                <a href="#blog">News</a>
-                <a href="#testimonials">Testimonials</a>
-            </div>
-            <div class="social-networks">
-                <a href="https://facebook.com/">
-                <img src="img/facebook.svg" alt="Facebook icon">
-                </a>
-                <a href="https://instagram.com/">
-                <img src="img/instagram.svg" alt="Instagram icon">
-                </a>
-                <a href="https://twitter.com/">
-                <img src="img/twitter.svg" alt="Twitter icon">
-                </a>
-                <a href="https://youtube.com/">
-                <img src="img/youtube.svg" alt="Youtube icon">
-                </a>
-            </div>
-        </nav>
-        <div class="header-promo-text">
-            <div>
-                <h1>Great Sound at Low Prices</h1>
-                <p>Headphones and loudspeakers from the best brands.</p>
-            </div>
-            <div class="buttoms">
-                <a href="#about">ABOUT US</a>
-                <a href="#shop">SHOP NOW <img src="img/orange-line.svg" alt="Orange line"></a>
-            </div>
-        </div>
-        </div>
-        <div class="service">
-            <div class="service-icon">
-                <img src="img/shipping.svg" alt="Shipping icon">
-            </div>
-            <div class="service-text">
-                <h4>Free Shipping</h4>
-                <p>For all orders over $100</p>
-            </div>
-            <div class="service-icon">
-                <img src="img/money.svg" alt="Money icon">
-            </div>
-            <div class="service-text">
-                <h4>Money Back</h4>
-                <p>30-days guarantee</p>
-            </div>
-            <div class="service-icon">
-                <img src="img/support.svg" alt="Support icon">
-            </div>
-            <div class="service-text">
-                <h4>24/7 Support</h4>
-                <p>We work round the clock</p>
-            </div>
-            <div class="service-icon">
-                <img src="img/delivery.svg" alt="Delivery icon">
-            </div>
-            <div class="service-text">
-                <h4>Fast Delivery</h4>
-                <p>In 2-4 business days</p>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div id="shop">
-            <div class="featured">
-                <div class="shop-card">
-                    <a href="shop/jbl-rr-56.html">
-                        <img src="img/jbl-rr-56.png" alt="JBL RR-56">
-                        <br>
-                        JBL RR-56</a>
-                    <p>$110,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/sennheiser-sn-67.html">
-                        <img src="img/sennheiser-sn-67.png" alt="Sennheiser SN-67">
-                        <br>
-                        Sennheiser SN-67</a>
-                    <p>$213,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/jbl-gt-345.html">
-                        <img src="img/jbl-gt-345.png" alt="JBL GT-345">
-                        <br>
-                        JBL GT-345</a>
-                    <p>$120,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/sony-s890.html">
-                        <img src="img/sony-s890.png" alt="Sony S890">
-                        <br>
-                        Sony S890</a>
-                    <p>$259,00</p>
-                    <button>ADD TO CART</button>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header-contacts">
+                    <div class="header-contacts-item white-text">
+                        Customer Care: 
+                        <a href="tel:+12345678900"><span>+1 (234) 567 89 00</span></a>
+                    </div>
+                    <div class="header-contacts-item white-text">
+                        Email: 
+                        <a href="mailto:basside@email.com"><span>basside@email.com</span></a>
+                    </div>
                 </div>
             </div>
-            <div class="sale">
-                <div class="shop-card">
-                    <a href="shop/marshall-dr67.html">
-                        <img src="img/marshall-dr67.png" alt="Marshall DR67">
-                        <br>
-                        Marshall DR67</a>
-                    <p>$459,00</p>
-                    <button>ADD TO CART</button>
+        </header>
+        <main class="page">
+            <section class="page-main main">
+                <div class="main__container">
+                    <div class="main-hat hat">
+                        <img src="img/logo.svg" alt="Logo" class="hat-logo">
+                        <nav class="hat-nav">
+                            <a href="" class="hat-nav-item">Headphones</a>
+                            <a href="" class="hat-nav-item">Speakers</a>
+                            <a href="" class="hat-nav-item">News</a>
+                            <a href="" class="hat-nav-item">Testimonials</a>
+                        </nav>
+                        <div class="hat-socials">
+                            <a href="https://facebook.com" class="hat-socials-item"><img src="img/main/socials/facebook.svg" alt="Facebook icon"></a>
+                            <a href="https://instagram.com" class="hat-socials-item"><img src="img/main/socials/instagram.svg" alt="Instagram icon"></a>
+                            <a href="https://twitter.com" class="hat-socials-item"><img src="img/main/socials/twitter.svg" alt="Twitter icon"></a>
+                            <a href="https://youtube.com" class="hat-socials-item"><img src="img/main/socials/youtube.svg" alt="Youtube icon"></a>
+                        </div>
+                    </div>
+                    <div class="main-content">
+                        <div class="main-content-text">
+                            <h1>Great Sound at Low Prices</h1>
+                            Headphones and loudspeakers from the best brands.
+                        </div>
+                        <div class="main-content-buttoms">
+                            <a href="" class="buttom-blue buttom">ABOUT US</a>
+                            <a href="" class="buttom-orange-line buttom">SHOP NOW <img src="img/buttom/orange-line.svg" alt="Orange line"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="shop-card">
-                    <a href="shop/v-moda-er65.html">
-                        <img src="img/v-moda-er65.png" alt="V-MODA ER65">
-                        <br>
-                        V-MODA ER65</a>
-                    <p>$80,00</p>
-                    <button>ADD TO CART</button>
+            </section>
+            <section class="features">
+                <div class="features__container">
+                    <div class="features-items">
+                        <div class="features-item">
+                            <div class="features-item-image">
+                                <img src="img/feateres/free_shipping.svg" alt="Track icon">
+                            </div>
+                            <div class="features-item-text">
+                                <h3>Free Shipping</h3>
+                                For all orders over $100
+                            </div>
+                        </div>
+                        <div class="features-item">
+                            <div class="features-item-image">
+                                <img src="img/feateres/money_back.svg" alt="Money icon">
+                            </div>
+                            <div class="features-item-text">
+                                <h3>Money Back</h3>
+                                30-days guarantee
+                            </div>
+                        </div>
+                        <div class="features-item">
+                            <div class="features-item-image">
+                                <img src="img/feateres/24-7_support.svg" alt="Headphones icon">
+                            </div>
+                            <div class="features-item-text">
+                                <h3>24/7 Support</h3>
+                                We work round the clock
+                            </div>
+                        </div>
+                        <div class="features-item">
+                            <div class="features-item-image">
+                                <img src="img/feateres/fast_delivery.svg" alt="Box icon">
+                            </div>
+                            <div class="features-item-text">
+                                <h3>Fast Delivery</h3>
+                                In 2-4 business days
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="shop-card">
-                    <a href="shop/bose-g656-a.html">
-                        <img src="img/bose-g656-a.png" alt="Bose G656-A">
-                        <br>
-                        Bose G656-A</a>
-                    <p>$65,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/airpurse-r255.html">
-                        <img src="img/airpurse-r255.png" alt="AirPurse R255">
-                        <br>
-                        AirPurse R255</a>
-                    <p>$185,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-            </div>
-            <div class="new">
-                <div class="shop-card">
-                    <a href="shop/sony-yt555.html">
-                        <img src="img/sony-yt555.png" alt="Sony YT555">
-                        <br>
-                        Sony YT555</a>
-                    <p>$140,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/sony-tt56.html">
-                        <img src="img/sony-tt56.png" alt="Sony TT56">
-                        <br>
-                        Sony TT56</a>
-                    <p>$98,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/jbl-br-55.html">
-                        <img src="img/jbl-br-55.png" alt="JBL BR-55">
-                        <br>
-                        JBL BR-55</a>
-                    <p>$110,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="shop-card">
-                    <a href="shop/jbl-334wn.html">
-                        <img src="img/jbl-334wn.png" alt="JBL 334WN">
-                        <br>
-                        JBL 334WN</a>
-                    <p>$140,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        <div class="special-offer">
-            <div class="special-offer-speakers">
-                <h2>JBL Speakers</h2>
-                <div class="special-offer-speakers-price">
-                    <h5>$300.00</h5>
-                    <h4>$250.00</h4>
-                </div>
-                <p>Special price on a variety of JBL loudspeakers.</p>
-                <a href="#speakers">LEARN MORE <img src="img/blue-line.svg" alt="Blue line"></a>
-            </div>
-            <div class="special-offer-headphones">
-                <p>SPECIAL OFFER</p>
-                <h3>Headphones Sale</h3>
-                <a href="#headphones">LEARN MORE <img src="img/yellow-line.svg" alt="Yellow line"></a>
-            </div>
-        </div>
-        <div id="about">
-            <div class="about-photo">
-                <img src="img/girl-about.jpg" alt="Girl with speakers">
-            </div>
-            <div class="about-all-text">
-            <div class="about-text">
-                <h2>Mindblowing Sound in Our Store</h2>
-                <img src="img/blue-wave.svg" alt="Blue wave">
-                <h3>Discover the world of high-quality sound and enjoy your favorite tracks with Basside online store.</h3>
-                <p>Basside knows everything about the riffs, percussions, and baselines. We will help you choose the best headphones and speakers to hear the thinnest tones that have always been there.</p>
-            </div>
-            <div class="about-description">
-                <div class="about-description-icon">
-                    <img src="img/headphones-icon.svg" alt="Headphones icon">
-                </div>
-                <div class="about-description-text">
-                    <h3>All Kinds of Headphones</h3>
-                    <p>We sell headphones by famous brands (from Sennheiser to Bang & Olufsen), including models for gaming.</p>
-                </div>
-                <div class="about-description-icon">
-                    <img src="img/speaker-icon.svg" alt="Speaker icon">
-                </div>
-                <div class="about-description-text">
-                    <h3>Top Loudspeakers</h3>
-                    <p>Enjoy your favorite music everywhere — outdoors, in the office, at home, and at parties. </p>
-                </div>
-                <div class="about-description-icon">
-                    <img src="img/bluetooth-icon.svg" alt="Bluetooth icon">
-                </div>
-                <div class="about-description-text">
-                    <h3>Wireless Connection</h3>
-                    <p>We offer many wireless models of headphones and loudspeakers for your comfort.</p>
-                </div>
-                </div>
-            </div>
-            <div class="promotions">
-                <div class="description">
-                    <h2>JBL Speaker</h2>
-                    <h3>Model</h3>
-                    <p>JBL HY-F2234</p>
-                    <h3>Details</h3>
-                    <p>This wireless model delivers a bass-heavy sound. You can enjoy your favorite songs whenever you are, thanks to powerful radiators and full-range speakers. JBL will take your music listening experience to the next level.</p>
-                    <h3>Price $356</h3>
-                </div>
-                <div class="buttoms">
-                    <a href="#shop">BUY NOW</a>
-                    <a href="#speakers">MORE MODELS</a>
-                </div>
-                <div>
-                    <img src="img/jbl-hy-f2234.png" alt="JBL HY-F2234">
-                </div>
-            </div>
-            <div class="special-promotions">
-                <div class="section-best-seller">
-                    <p>BEST SELLER</p>
-                    <h3>Meze T45</h3>
-                    <p>$357.00 $320.00</p>
-                    <a href="#headphones">SHOP NOW <img src="img/blue-line.svg" alt="Blue line"></a>
-                </div>
-                <div class="section-special-offer">
-                    <p>SPECIAL OFFER</p>
-                    <h3>Sony S890</h3>
-                    <p>$327.00 $259.00</p>
-                    <a href="#headphones">SHOP NOW <img src="img/blue-line.svg" alt="Blue line"></a>
-                </div>
-                <div class="section-hurry-up">
-                    <p>HURRY UP</p>
-                    <h3>Sony S2</h3>
-                    <p>$427.00 $200.00</p>
-                    <a href="#speakers">SHOP NOW <img src="img/blue-line.svg" alt="Blue line"></a>
-                </div>
-            </div>
-        </div>
-        <div id="headphones">
-            <div class="headphones-hat">
-                <h2>Headphones</h2>
-                <img src="img/orange-wave.svg" alt="Orange wave">
-                <p>Shop your favorite headphones or contact us for help with the choice.</p>
-            </div>
-            <div class="headphones-shop">
-                <div class="headphones-card">
-                    <a href="shop/airpurse-rs45.html">
-                    <img src="img/airpurse-rs45.png" alt="AirPurse RS45">
-                    AirPurse RS45</a>
-                    <p>$195,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="headphones-card">
-                    <a href="shop/sony-tt56.html">
-                    <img src="img/sony-tt56.png" alt="Sony TT56">
-                    Sony TT56</a>
-                    <p>$98,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="headphones-card">
-                    <a href="shop/jbl-334wn.html">
-                    <img src="img/jbl-334wn.png" alt="JBL 334WN">
-                    JBL 334WN</a>
-                    <p>$140,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="headphones-card">
-                    <a href="shop/airpurse-bb34.html">
-                    <img src="img/airpurse-bb34.png" alt="AirPurse BB34">
-                    AirPurse BB34</a>
-                    <p>$112,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="headphones-card">
-                    <a href="shop/bang-and-olufsen-f112.html">
-                    <img src="img/bang-and-olufsen-f112.png" alt="Bang & Olufsen F112">
-                    Bang & Olufsen F112</a>
-                    <p>$145,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        <div class="promotions-with-timer">
-            <div class="timer-card">
-                <p>HEADPHONES</p>
-                <h4>AirPulse R255 Wireless</h4>
-                <p>$240.00 $185.00</p>
-            </div>
-            <div class="timer-card">
-                <p>SPEAKERS</p>
-                <h4>Bose Speaker G656-A</h4>
-                <p>$100.00 $65.00</p>
-            </div>
-            <div class="timer-card">
-                <p>HEADPHONES</p>
-                <h4>Sennheiser SB25 Wireless</h4>
-                <p>$130.00 $85.00</p>
-            </div>
-        </div>
-        <div class="headphones-promotions">
-            <div>
-                <img src="img/airpurse-r255-big.png" alt="AirPulse R255">
-            </div>
-            <div>
-                <img src="img/sony-s890-big.png" alt="Sony S890">
-            </div>
-            <div>
-                <img src="img/bang-and-olufsen-jy-f112-big.png" alt="Bang & Olufsen JY-F112">
-            </div>
-        </div>
-        <div id="speakers">
-            <div class="speakers-hat">
-                <h2>Speakers</h2>
-                <img src="img/blue-wave.svg" alt="Blue wave">
-                <p>Take your music with you wherever you go and enjoy the high-quality sound.</p>
-            </div>
-            <div class="speakers-shop">
-                <div class="speakers-card">
-                    <a href="shop/jbl-party-pt-25.html">
-                    <img src="img/jbl-party-pt-25.png" alt="JBL Party PT-25">
-                    JBL Party PT-25</a>
-                    <p>$180,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="speakers-card">
-                    <a href="shop/jbl-rr-56.html">
-                    <img src="img/jbl-rr-56.png" alt="JBL RR-56">
-                    JBL RR-56</a>
-                    <p>$110,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="speakers-card">
-                    <a href="shop/jbl-gt-345.html">
-                    <img src="img/jbl-gt-345.png" alt="JBL GT-345">
-                    JBL GT-345</a>
-                    <p>$120,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="speakers-card">
-                    <a href="shop/jbl-br-55.html">
-                    <img src="img/jbl-br-55.png" alt="JBL BR-55">
-                    JBL BR-55</a>
-                    <p>$110,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="speakers-card">
-                    <a href="shop/jbl-or-57.html">
-                    <img src="img/jbl-or-57.png" alt="JBL OR-57">
-                    JBL OR-57</a>
-                    <p>$98,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-                <div class="speakers-card">
-                    <a href="shop/sony-yt555.html">
-                    <img src="img/sony-yt555.png" alt="Sony YT555">
-                    Sony YT555</a>
-                    <p>$140,00</p>
-                    <button>ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        <div class="brand-switcher">
-            <div class="brand-logo">
-                <img src="img/apple.svg" alt="Apple logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/sony.svg" alt="Sony logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/marshall.svg" alt="Marshall logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/sennheiser.svg" alt="Sennheiser logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/beyerdynamic.svg" alt="Beyerdynamic logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/panasonic.svg" alt="Panasonic logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/samsung.svg" alt="Samsung logo">
-            </div>
-            <div class="brand-logo">
-                <img src="img/jbl.svg" alt="JBL logo">
-            </div>
-        </div>
-        <div id="testimonials">
-            <div class="testimonials-hat">
-                <h2>Our Customers Say</h2>
-                <img src="img/orange-wave.svg" alt="Orange wave">
-                <p>We're so excited to receive great testimonials from our customers!</p>
-            </div>
-            <div class="testimonials-card">
-                <img src="img/dean-williams.png" alt="Photo Dean Williams">
-            </div>
-            <div class="testimonials-card">
-                <img src="img/jessica-gordons.png" alt="Photo Jessica Gordons">
-            </div>
-            <div class="testimonials-card">
-                <img src="img/eric-smith.png" alt="Photo Eric Smith">
-            </div>
-        </div>
-        <div id="blog">
-            <div class="blog-hat">
-                <h2>Popular Articles</h2>
-                <img src="img/blue-wave.svg" alt="Blue wave">
-                <p>Want to learn more about the world of audio gadgets? Follow our blog posts!</p>
-            </div>
-            <div class="blog-card">
-                <img src="img/blog-speakers.png" alt="Speakers">
-                <p>SPEAKERS</p>
-                <h3>How to Choose a Speaker for Office?</h3>
-                <p>Want to enjoy cool background music in your office? We will help you choose the right speakers.</p>
-                <a href="index.html">READ MORE <img src="img/orange-line.svg" alt="Orange line"></a>
-            </div>
-            <div class="blog-card">
-                <img src="img/blog-headphones.png" alt="Girl with headphones">
-                <p>HEADPHONES</p>
-                <h3>Top 5 New Headphones</h3>
-                <p>Spring 2021 has brought a lot of new products from top wireless headphone manufacturers.</p>
-                <a href="index.html">READ MORE <img src="img/orange-line.svg" alt="Orange line"></a>
-            </div>
-            <div class="blog-card">
-                <img src="img/blog-speakers-with-people.png" alt="Peoples with headphones and speakers">
-                <p>SPEAKERS</p>
-                <h3>Home Usage of Loudspeakers</h3>
-                <p>A speaker for home should be inexpensive, durable, and with added features, right?</p>
-                <a href="index.html">READ MORE <img src="img/orange-line.svg" alt="Orange line"></a>
-            </div>
-            <div class="blog-footer">
-                <h2>Check Out Our Hot Offers</h2>
-                <p>Join our summer sale with special prices on Bose, Sennheiser, Sony, Bang & Olufsen, and other brands.</p>
-                <a href="#shop">LEARN MORE</a>
-            </div>
-        </div>
-    </main>
-    <footer id="footer">
-        <div>
-            <div>
-                <img src="img/logo.svg" alt="Logo">
-                <p>Shop the best headphones and loudspeakers from top brands at low prices in our online store.</p>
-            </div>
-            <div>
-                <p>CONTACT US</p><a href="tel:+12345678900"><h3>+1 (234) 567 89 00</h3></a>
-                <p>WRITE US</p><a href="mailto:basside@email.com"><h3>basside@email.com</h3></a>
-            </div>
-            <div>
-                <form action="sample.com" method="POST">
-                    <label>
-                        <input type="email" name="user-email" placeholder="Email" required>
-                    </label>
-                    <br>
-                    <input type="submit" value="SUBSCRIBE">
-                </form>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>Products</h3>
-                <br>
-                <img src="img/yellow-line.svg" alt="Yellow line">
-                <br>
-                <a href="#headphones">Headphones</a>
-                <br>
-                <a href="#smart-watches">Smart Watches</a>
-                <br>
-                <a href="#speakers">Speakers</a>
-                <br>
-                <a href="#shop">Sale</a>
-            </div>
-            <div>
-                <h3>Navigation</h3>
-                <br>
-                <img src="img/yellow-line.svg" alt="Yellow line">
-                <br>
-                <a href="#about">About Us</a>
-                <br>
-                <a href="#faq">FAQ</a>
-                <br>
-                <a href="#blog">News</a>
-                <br>
-                <a href="#footer">Contacts</a>
-            </div>
-            <div>
-                <h3>Quicklinks</h3>
-                <br>
-                <img src="img/yellow-line.svg" alt="Yellow line">
-                <br>
-                <a href="index.html">View Orders</a>
-                <br>
-                <a href="index.html">Tracking Order</a>
-                <br>
-                <a href="index.html">My Account</a>
-                <br>
-                <a href="index.html">Join Our Team</a>
-            </div>
-            <div>
-                <h3>Customer Care</h3>
-                <br>
-                <img src="img/yellow-line.svg" alt="Yellow line">
-                <br>
-                <a href="index.html">Privacy Policy</a>
-                <br>
-                <a href="index.html">Terms & Conditions</a>
-                <br>
-                <a href="index.html">Returns</a>
-                <br>
-                <a href="index.html">Shipping Info</a>
-            </div>
-            <div class="socials">
-                <h3>Socials</h3>
-                <br>
-                <img src="img/yellow-line.svg" alt="Yellow line">
-                <br>
-                <a href="https://instagram.com/">Instagram</a>
-                <br>
-                <a href="https://facebook.com/">Facebook</a>
-                <br>
-                <a href="https://twitter.com/">Twitter</a>
-                <br>
-                <a href="https://youtube.com/">Youtube</a>
-            </div>
-        </div>
-        <hr>
-        <p>© Created by Rostik</p>
-        <p>All rights Reserved</p>
-    </footer>
+            </section>
+            
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
 </body>
 </html>

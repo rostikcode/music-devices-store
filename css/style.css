@@ -101,6 +101,11 @@ h3 {
 .header {
     background-color: #2a2a2a;
 }
+@media (max-width: 900px) {
+    .header {
+        display: none;
+    }
+}
 
 .header-contacts {
     display: flex;
@@ -117,6 +122,8 @@ h3 {
     letter-spacing: .1em;
     font-size: 13px;
 }
+
+
 
 /*---------------------------------------*/
 
@@ -161,11 +168,23 @@ h3 {
     background-color: rgb(235, 81, 18);
     margin: 6px;
 }
+@media (max-width: 900px) {
+    .page-main {
+        background-position-x : 45%;
+        background-position-y : 0%;
+    }
+    .hat-nav {
+        display: none;
+    }
+    .hat-socials {
+        display: none;
+    }
+}
 
 /*--------------*/
 
 .main-content {
-    padding: 180px 0px 250px 0px;
+    padding: 180px 0 250px 0;
 }
 .main-content-text {
     display: flex;
@@ -191,6 +210,12 @@ h3 {
 
 .buttom-orange-line img {
     width: 24px;
+}
+
+@media (max-width: 900px) {
+    .main-content {
+        padding: 180px 0 80px 0;
+    }
 }
 
 /*--------------------------------*/
@@ -227,6 +252,18 @@ h3 {
     padding: 15px;
 }
 
+@media (max-width: 900px) {
+    .features-items {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media (max-width: 500px) {
+    .features-items {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
 /*------shop------------------------*/
 
 /*----------------------*/
@@ -265,6 +302,19 @@ h3 {
 .buttom-yellow-line img {
     width: 24px;
 }
+@media (max-width: 900px) {
+    .banner-items {
+        flex-direction: column;
+    }
+    .banner-speakers {
+        width: 100%;
+    }
+    .banner-headphones {
+        margin-top: 30px;
+        width: 100%;
+        background-position-y : 80%;
+    }
+}
 
 /*--------------------------*/
 
@@ -286,6 +336,7 @@ h3 {
 .about-main-content {
     display: grid;
     padding: 125px 15px 115px 15px;
+    background-color: #f2f2f2;
 }
 .about-main-content img{
     height: 32px;
@@ -303,7 +354,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: white;
     border-radius: 50%;
     height: 70px;
 }

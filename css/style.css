@@ -197,12 +197,12 @@ h3 {
 
 
 .features__container {
-    padding: 50px 0 30px 0;
-
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .features-items {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
 }
 .features-item {
     display: flex;
@@ -255,6 +255,8 @@ h3 {
 .banner-headphones {
     background-image: url(../img/headphones-background.webp);
     background-repeat: no-repeat;
+    background-position-x : 50%;
+    background-position-y : 60%;
     height: 420px;
     width: 25%;
     background-size: cover;
@@ -263,3 +265,55 @@ h3 {
 .buttom-yellow-line img {
     width: 24px;
 }
+
+/*--------------------------*/
+
+.about {
+}
+.about__container {
+}
+.about-main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.about-main-image {
+    background-image: url(../img/about/about-girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x : 50%;
+    background-position-y : 50%;
+}
+.about-main-content {
+    display: grid;
+    padding: 125px 15px 115px 15px;
+}
+.about-main-content img{
+    height: 32px;
+}
+.about-main-content-features {
+    display: grid;
+    grid-template-columns: auto;
+}
+.about-main-content-features-item {
+    display: grid;
+    grid-template-columns: 70px auto;
+    padding: 7.5px 0;
+}
+.about-main-content-features-item-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    height: 70px;
+}
+.about-main-content-features-item-image img{
+    width: 40px;
+    height: 40px;
+}
+.about-main-content-features-item-text {
+    padding: 0 0 0 15px;
+}
+
+/*-------------------*/
+

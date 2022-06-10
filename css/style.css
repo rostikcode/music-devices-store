@@ -25,9 +25,11 @@ body {
 }
 
 body {
-	line-height: 1;
-	font-family: PT Sans;
-	color: var(--color-dark-shade)
+	font-family: PT Sans,sans-serif;
+	color: var(--color-dark-shade);
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 a {
@@ -79,6 +81,15 @@ h3 {
     line-height: 1.5;
     font-weight: 700;
     font-size: 22px;
+}
+
+p {
+    font-family: PT Sans,sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--color-dark-emphasis);
+    
 }
 
 .white-text {
@@ -197,7 +208,8 @@ h3 {
     display: flex;
     flex-direction: column;
     max-width: 50%;
-    line-height: 5;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .main-content-buttoms {
@@ -257,6 +269,8 @@ h3 {
 }
 
 .features-item-text {
+    display: flex;
+    flex-direction: column;
     padding: 15px;
 }
 
